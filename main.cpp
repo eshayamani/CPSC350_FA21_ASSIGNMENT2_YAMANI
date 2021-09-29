@@ -6,6 +6,11 @@
 //checks if commands asks to translate from english or tutnese
 //uses file processor class to translate
 int main(int argc, char**argv) {
+  for (int i=0; i<3; i++) {
+    if(argv[i] == NULL) {
+      cout << "Cannot run the code" << endl;
+    }
+  }
   FileProcessor a;
   std::string command = argv[3];
   if(command.compare("E2T") == 0) {
