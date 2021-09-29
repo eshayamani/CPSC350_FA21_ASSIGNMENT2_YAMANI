@@ -6,7 +6,7 @@
 //checks if commands asks to translate from english or tutnese
 //uses file processor class to translate
 int main(int argc, char**argv) {
-  for (int i=0; i<3; i++) {
+  for (int i=1; i<=3; i++) {
     if(argv[i] == NULL) {
       cout << "Cannot run the code" << endl;
     }
